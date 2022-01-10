@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script type="text/javascript" src="../js/add_usuario.js"></script>
+    <title>RicScan</title>
+</head>
+<body>
+<div class="login">
+    <h1 id="scan">NOBRE</h1>
+    <form action="../php/login.php" method="post">
+        <div id="user">
+            <label for="usuario">Usuario:</label><br/>
+            <input type="text" name="usuario"/>
+        </div>
+
+        <div id="senha">
+
+            <label for="senha">Senha:</label>
+            <br/>
+            <input type="password" name="senha"/>
+
+        </div>
+
+
+        <input type="submit" value="Login" class="botao"><br/>
+        <br/><br/><a class='botao' href="/Cadastro_usuario">Cadastrar</a>
+    </form>
+<div class='sucesso'></div>
+</div>
+</body>
+</html>

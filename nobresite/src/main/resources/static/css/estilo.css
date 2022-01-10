@@ -1,0 +1,93 @@
+@font-face {
+    font-family: LOGIN;
+    src: url(../font/VCR_OSD_MONO_1.001.ttf);
+}
+
+.My-1 { color: #9CAFB7; }
+.My-2 { color: #0A1045; }
+.My-3 { color: #466060; }
+.My-4 { color: #9B6A6C; }
+.My-5 { color: #D0FCB3; }
+.My-6 { color: #ffffff; }
+.My-7 { color: #000000; }
+body{
+    /*background-image: linear-gradient(45deg,#466060,#0A1045);*/
+    background-color: #0A1045;
+}
+.login{
+    font-family: LOGIN;
+    font-size:20px;
+    background-color: #d0fcb363;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 100px;
+    border-radius: 15px;
+    color:#0A1045;
+    
+}
+.erro{
+    background-color: rgb(177, 33, 33);
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+    transform: translate(0,100%);
+}
+.sucesso{
+    background-color: rgb(38, 177, 33);
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+    transform: translate(0,110%);
+}
+#scan{
+    position: relative;
+    top: -100px;
+}
+#nome{
+    position: relative;
+    top: -40px;
+}
+#user{ position: relative;
+    top: -30px;}
+#senha{ position: relative;
+    top: -20px;}
+input{
+    padding: 15px;
+    border:none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 20px;
+    font-family: LOGIN;
+    text-align: center;
+}
+.botao{
+    position: relative;
+    bottom: -10px;
+    background-color: #9B6A6C;
+    padding: 15px;
+    border:none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 20px;
+    font-family: LOGIN;
+    text-align: center;
+    cursor:pointer;
+    color:#0A1045;
+}
+.botao:hover{
+    background-color: #ce9395;
+}
+A {text-decoration: none;
+    color:#0A1045;
+} 
+#voltar{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    color:#0A1045;
+    height: 20px;
+}
